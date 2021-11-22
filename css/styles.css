@@ -56,11 +56,13 @@ nav {
   background-color: grey;
   font-size: 20px;
   text-align: center;
+  padding: 10px;
 }
 
 nav a:hover {
   background-color: #d3d3d3;
   color: black;
+  padding: 10px;
 }
 
 nav ul li {
