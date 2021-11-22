@@ -1,0 +1,44 @@
+.contenedorNovedades {
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contenedorNovedades {
+    div {
+        img {
+            margin: 10px;
+        }
+    }
+}
+
+.cajasNovedades {
+    margin-top: 10px;
+    width: 550;
+    height: 350;
+}
+
+.contenedorTrabajos {
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contenedorTrabajos {
+    div {
+        background-color: gray;
+    }
+}
+
+.contenedorTrabajos {
+    div {
+        img {
+            margin: 10px;
+        }
+    }
+}

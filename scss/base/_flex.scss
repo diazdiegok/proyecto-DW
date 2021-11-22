@@ -1,0 +1,58 @@
+.contenedorValores {
+    display: flex;
+    margin: auto;
+    width: 1200px;
+    align-items: center;
+}
+
+.contenedorValores {
+    div {
+        align-items: center;
+        margin: 20px;
+        padding: 10px;
+        border: 2px solid green;
+        border-radius: 20px;
+        height: 300px;
+        width: 350px;
+        background-color: white;
+    }
+}
+
+.cuadroPrincipios {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.cuadroPrincipios {
+    h2 {
+        margin-top: 100px;
+    }
+}
+
+.contenedorPrincipios {
+    display: flex;
+    width: 1300px;
+    height: 300px;
+}
+
+.contenedorPrincipios {
+    ul {
+        margin: auto;
+        padding: 50px;
+        padding-left: 1000px;
+        margin-left: 50px;
+        width: 1000px;
+        height: 200px;
+    }
+}
+
+.recuadroImagenes {
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}

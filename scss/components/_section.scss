@@ -1,0 +1,19 @@
+section {
+    p {
+        a {
+            color: black;
+        }
+    }
+}
+
+section form {
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+}

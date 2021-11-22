@@ -1,0 +1,59 @@
+nav {
+    background-color: grey;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav a:hover {
+    border: 2px black solid;
+    background-color: #d3d3d3;
+    color: black;
+}
+
+nav {
+    ul {
+        li {
+            padding: 10px;
+            list-style: none;
+            display: inline-block;
+        }
+    }
+}
+
+nav {
+    ul {
+        li {
+            a {
+                color: black;
+            }
+        }
+    }
+}
+
+nav {
+    ul {
+        li {
+            ul {
+                font-size: 18px;
+                display: none;
+                padding-top: 5px;
+                position: absolute;
+                width: 125px;
+                background-color: white;
+                text-align: center;
+            }
+        }
+    }
+}
+
+nav {
+    ul {
+        li {
+            &:hover {
+                ul {
+                    display: block;
+                }
+            }
+        }
+    }
+}

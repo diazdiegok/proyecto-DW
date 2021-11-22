@@ -1,0 +1,43 @@
+.efectoLogo {
+    animation-name: efecto1;
+    animation-iteration-count: initial;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+
+@keyframes efecto1 {
+    0% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.efectoNovedades {
+    animation-name: efecto2;
+    animation-iteration-count: initial;
+    animation-duration: 3s;
+    animation-direction: normal;
+    font-size: 28px;
+}
+
+@keyframes efecto2 {
+    0% {
+        transform: translateX(-100px);
+    }
+    50% {
+        transform: translateX(100px)
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.efectoZoom {
+    transition: transform .2s;
+}
+
+.efectoZoom:hover {
+    transform: scale(1.2);
+}

@@ -1,0 +1,93 @@
+.bordesRedondeados {
+    border-radius: 20px;
+}
+
+.cuadro {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.cuadro {
+    p {
+        font-size: 18px;
+    }
+}
+
+.textoPrincipal {
+    text-align: center;
+    font-size: 20px;
+}
+
+.confianEn {
+    font-size: 22px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    line-height: 2;
+    text-decoration: underline;
+}
+
+.logosRedes {
+    box-sizing: border-box;
+    width: 115px;
+    position: absolute;
+    padding-top: 2px;
+    right: -20px;
+    position: fixed;
+}
+
+.nosotros {
+    text-align: left;
+    margin-top: 100px;
+    padding-left: 50px;
+}
+
+.nosotros {
+    ul {
+        li {
+            list-style-type: square;
+        }
+    }
+}
+
+.recuadroVideo {
+    width: 800px;
+    height: 325px;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    background-color: black;
+}
+
+.recuadroMapa {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.cuadroContacto {
+    width: 400px;
+    background-color: rgb(172, 170, 168);
+    margin: 100px auto;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.contacto {
+    margin-top: 5x;
+    margin-bottom: 5px;
+}
+
+.botonEnviar {
+    width: 150px;
+    background-color: #1fc551;
+    border: none;
+    padding: 12px;
+    font-size: 14px;
+}
+
+.botonLimpiar {
+    width: 150px;
+    background-color: #d82121;
+    border: none;
+    padding: 12px;
+    font-size: 14px;
+}
