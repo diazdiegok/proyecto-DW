@@ -190,7 +190,6 @@ footer ul li {
   margin: auto;
   text-align: center;
   padding: 50px;
-  background-color: black;
 }
 
 .recuadroMapa {
@@ -339,6 +338,7 @@ footer ul li {
           animation-duration: 2s;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
+  margin-left: 30px;
 }
 
 @-webkit-keyframes efecto1 {
@@ -417,32 +417,75 @@ footer ul li {
           transform: scale(1.2);
 }
 
-/* MOBILE FIRST
-
+/* MOBILE FIRST */
 @media (max-width: 768px) {
-    html {
-        font-size: 12px;
-    }
-    body {
-        background-color: grey;
-    }
-    header {
-        padding-bottom: 10px;
-        text-align: center;
-    }
-    nav {
-        font-size: 10x;
-        margin-bottom: 20px;
-        padding: 10px;
-        text-align: center;
-    }
-    footer {
-        margin-top: 40px;
-        padding: 10px;
-        background-color: rgb(75, 72, 72);
-        height: 80px;
-    }
+  /* HEADER */
+  nav {
+    font-size: 15px;
+  }
+  nav ul li ul {
+    font-size: 15px;
+  }
+  /* SECTION */
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 17px;
+  }
+  /* FOOTER */
+  footer ul li {
+    font-size: 15px;
+  }
+  /* CLASES */
+  .textoPrincipal {
+    font-size: 16px;
+  }
+  .cuadro p {
+    font-size: 16px;
+  }
+  .nosotros {
+    font-size: 16px;
+  }
+  .contenedorValores {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: auto;
+    font-size: 16px;
+  }
+  .cuadroPrincipios {
+    margin-left: auto;
+  }
+  .contenedorPrincipios {
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contenedorPrincipios ul {
+    margin-left: 20px;
+    width: auto;
+    height: auto;
+  }
+  .contenedorNovedades {
+    width: auto;
+  }
+  .contenedorTrabajos {
+    width: auto;
+  }
+  .recuadroVideo {
+    width: auto;
+  }
 }
-
-*/
 /*# sourceMappingURL=styles.css.map */

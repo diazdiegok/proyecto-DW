@@ -1,28 +1,64 @@
-/* MOBILE FIRST
+/* MOBILE FIRST */
 
 @media (max-width: 768px) {
-    html {
-        font-size: 12px;
-    }
-    body {
-        background-color: grey;
-    }
-    header {
-        padding-bottom: 10px;
-        text-align: center;
-    }
+    /* HEADER */
     nav {
-        font-size: 10x;
-        margin-bottom: 20px;
-        padding: 10px;
-        text-align: center;
+        font-size: 15px;
     }
-    footer {
-        margin-top: 40px;
-        padding: 10px;
-        background-color: rgb(75, 72, 72);
-        height: 80px;
+    nav ul li ul {
+        font-size: 15px;
+    }
+    /* SECTION */
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 17px;
+    }
+    /* FOOTER */
+    footer ul li {
+        font-size: 15px;
+    }
+    /* CLASES */
+    .textoPrincipal {
+        font-size: 16px;
+    }
+    .cuadro p {
+        font-size: 16px;
+    }
+    .nosotros {
+        font-size: 16px;
+    }
+    .contenedorValores {
+        flex-direction: column;
+        width: auto;
+        font-size: 16px;
+    }
+    .cuadroPrincipios {
+        margin-left: auto;
+    }
+    .contenedorPrincipios {
+        font-size: 16px;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedorPrincipios ul {
+        margin-left: 20px;
+        width: auto;
+        height: auto;
+    }
+    .contenedorNovedades {
+        width: auto;
+    }
+    .contenedorTrabajos {
+        width: auto;
+    }
+    .recuadroVideo {
+        width: auto;
     }
 }
-
-*/
