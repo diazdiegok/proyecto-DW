@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Reseteo css*/
 * {
   margin: 0;
@@ -490,6 +491,14 @@ footer ul li {
   }
   .recuadroVideo {
     width: auto;
+  }
+  .mapaTamaño {
+    width: 300px;
+    height: 300px;
+  }
+  .videoTamaño {
+    width: 300px;
+    height: 300px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
